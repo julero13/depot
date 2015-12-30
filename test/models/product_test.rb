@@ -3,7 +3,7 @@ require 'test_helper'
 class ProductTest < ActiveSupport::TestCase
   fixtures :products
   test "product price must be positive" do
-    product = Product.new(title:        "My Book Title",
+    product = Product.new(title:        "Of Da Booknesness Title",
                           description:  "yyy",
                           image_url:    "zzz.jpg")
     product.price = -1
